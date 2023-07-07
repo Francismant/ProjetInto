@@ -1,0 +1,542 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+h1, a {
+  font-family: "Poppins", sans-serif;
+}
+
+.fr {
+  display: flex;
+  justify-content: end;
+}
+.fr a {
+  margin: 1rem 7rem 0 0;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header .logo {
+  padding: 0 2rem 4rem 2rem;
+  margin-left: 2rem;
+}
+header .logo p:nth-of-type(1) {
+  font-size: 3rem;
+  font-weight: 900;
+}
+header .logo p:nth-of-type(2) {
+  font-size: 1rem;
+  font-weight: 900;
+}
+header #navigation {
+  padding: 3rem 5rem 0 0;
+  margin-right: 2rem;
+}
+header #navigation ul li {
+  display: inline-block;
+}
+header #navigation ul li a {
+  font-size: 1rem;
+  color: black;
+  font-weight: 900;
+  margin-left: 1rem;
+}
+header #navigation ul li:nth-of-type(1) a {
+  border-bottom: solid 0.3rem black;
+}
+
+.partone {
+  margin-bottom: 3rem;
+  position: relative;
+  height: 40rem;
+  display: flex;
+}
+.partone .photo1 {
+  z-index: 1;
+  margin-left: 4rem;
+  width: 75%;
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+}
+.partone .textphoto1 {
+  position: absolute;
+  right: 9rem;
+  top: 5rem;
+  z-index: 2;
+}
+.partone .textphoto1 p {
+  font-size: 5rem;
+  font-weight: 900;
+}
+.partone .textphoto1 .trait2 {
+  height: 0.8rem;
+  width: 18rem;
+  background-color: black;
+}
+.partone .photo2 {
+  position: absolute;
+  right: 10rem;
+  bottom: 3rem;
+}
+.partone .fleches {
+  display: flex;
+  position: absolute;
+  right: 15rem;
+  bottom: 1.1rem;
+}
+.partone .fleches p {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.partone .fleches p:nth-of-type(2) {
+  margin-left: 2rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+}
+
+.parttwo {
+  margin-bottom: 3rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+.parttwo p {
+  width: 20%;
+}
+.parttwo p:nth-of-type(4) {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: left;
+  border: solid 0.4rem black;
+  padding-left: 0.8rem;
+}
+.parttwo .plus {
+  position: absolute;
+  left: 4rem;
+  bottom: 0;
+}
+.parttwo .plus a {
+  padding: 0 1rem;
+  background-color: black;
+  color: white;
+}
+
+.trait3 {
+  border-bottom: solid black 0.4rem;
+  margin: 20rem 0 2rem 0;
+}
+
+.partthree {
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  height: 80rem;
+}
+.partthree .building {
+  width: 45%;
+}
+.partthree .building img {
+  width: 100%;
+}
+.partthree .building .textbuilding {
+  display: flex;
+  flex-direction: column;
+  height: 25%;
+  background-color: black;
+}
+.partthree .building .textbuilding p {
+  padding: 4rem 4rem 0 1rem;
+  color: white;
+}
+.partthree .building .textbuilding a {
+  width: 14%;
+  color: white;
+  background-color: black;
+  border: solid white 0.2rem;
+  margin: 5rem 0 0 1rem;
+  text-align: center;
+}
+.partthree .paragraph1 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.partthree .paragraph1 p {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.partthree .paragraph1 p:nth-of-type(1) {
+  font-weight: 800;
+}
+.partthree .paragraph1 p:nth-of-type(2) {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.partthree .paragraph1 a {
+  color: white;
+  font-weight: 600;
+  background-color: black;
+  width: 40%;
+  text-align: center;
+  margin-top: 6rem;
+  margin-left: 1rem;
+}
+.partthree .paragraph2 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.partthree .paragraph2 p {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.partthree .paragraph2 p:nth-of-type(1) {
+  font-weight: 800;
+}
+.partthree .paragraph2 p:nth-of-type(2) {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.partthree .paragraph2 img {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+.partthree .paragraph2 a {
+  color: white;
+  font-weight: 600;
+  background-color: black;
+  width: 40%;
+  text-align: center;
+  margin-top: 7.8rem;
+  margin-left: 1rem;
+}
+
+.partfour {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 10rem;
+  position: relative;
+}
+.partfour .paragraph3 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.partfour .paragraph3 .trait4 {
+  height: 0.5rem;
+  width: 15rem;
+  background-color: black;
+  margin: 10rem 0 2rem 2rem;
+}
+.partfour .paragraph3 p {
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+}
+.partfour .paragraph3 p:nth-of-type(1) {
+  font-weight: 800;
+}
+.partfour .paragraph3 p:nth-of-type(2) {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+.partfour .paragraph3 a {
+  color: white;
+  font-weight: 600;
+  background-color: black;
+  width: 15%;
+  text-align: center;
+  margin-top: 6rem;
+  margin-left: 3rem;
+}
+.partfour .hall {
+  width: 100%;
+}
+.partfour .hall img {
+  width: 80%;
+  margin-top: 13rem;
+}
+.partfour .firstprice {
+  position: absolute;
+  border: solid 0.4rem black;
+  padding: 1rem 2.5rem 1rem 0.2rem;
+  right: 20rem;
+  top: 5.6rem;
+}
+.partfour .firstprice p {
+  font-size: 4rem;
+  font-weight: 900;
+  color: white;
+}
+.partfour .firstprice p:nth-of-type(1) {
+  font-weight: 800;
+  color: black;
+}
+.partfour .into {
+  position: absolute;
+  bottom: 4rem;
+  right: 5rem;
+}
+.partfour .into p {
+  font-size: 6rem;
+  font-weight: 900;
+  rotate: 90deg;
+  background: linear-gradient(to bottom, black 50%, white 50%);
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+}
+
+footer {
+  display: flex;
+  gap: 10rem;
+  margin: 20rem 0 3rem 3rem;
+}
+footer .footer1 h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  margin-bottom: 0.6rem;
+}
+footer .footer1 p {
+  font-size: 0.8rem;
+}
+footer .footer2 {
+  padding-top: 2.3rem;
+}
+footer .footer2 p {
+  font-size: 0.8rem;
+}
+footer .footer3 {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2.3rem;
+}
+footer .footer3 a {
+  color: black;
+  font-size: 0.8rem;
+}
+
+@media screen and (max-width: 940px) {
+  .fr a {
+    margin: 1rem 2rem 0 0;
+  }
+  header .logo {
+    padding: 0 2rem 4rem 2rem;
+    margin-left: 2rem;
+  }
+  header .logo p:nth-of-type(1) {
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  header .logo p:nth-of-type(2) {
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  header #navigation {
+    display: none;
+  }
+  header #toggle {
+    position: fixed;
+    display: block;
+    width: 30px;
+    height: 2px;
+    top: 80px;
+    right: 80px;
+    cursor: pointer;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+    z-index: 8;
+  }
+  header #toggle:before, header #toggle:after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  header #toggle:before {
+    top: -10px;
+  }
+  header #toggle:after {
+    top: 10px;
+  }
+  header #toggle.active {
+    background-color: transparent;
+  }
+  header #toggle.active:before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+  header #toggle.active:after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+  header #navigation {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    right: -200%;
+    width: 100%;
+    height: 100vh;
+    transition: 0.5s;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 6;
+  }
+  header #navigation.active {
+    right: 0;
+  }
+  header #navigation.active ul li {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  header #navigation.active ul li a {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+  }
+  .partone {
+    height: 15rem;
+  }
+  .partone .photo1 {
+    height: 90%;
+  }
+  .partone .textphoto1 {
+    right: 0.7rem;
+    top: 1.5rem;
+  }
+  .partone .textphoto1 p {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .partone .textphoto1 .trait2 {
+    height: 0.4rem;
+    width: 7rem;
+    background-color: black;
+  }
+  .partone .photo2 {
+    display: none;
+  }
+  .partone .fleches {
+    left: 11rem;
+    bottom: 0;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+  .parttwo {
+    flex-direction: column;
+  }
+  .parttwo p {
+    width: 100%;
+  }
+  .parttwo p:nth-of-type(4) {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: left;
+    border: solid 0.3rem black;
+    padding-left: 0.8rem;
+    margin-top: 1rem;
+  }
+  .parttwo .plus {
+    display: block;
+    display: none;
+  }
+  .trait3 {
+    margin: 5rem 0 2rem 0;
+  }
+  .partthree {
+    flex-direction: column;
+    height: 100%;
+    margin: 0 2rem 1rem 2rem;
+  }
+  .partthree .building {
+    width: 100%;
+  }
+  .partthree .building img {
+    height: 20rem;
+  }
+  .partthree .building .textbuilding a {
+    margin: 5rem 0 2rem 1rem;
+  }
+  .partthree .paragraph1 {
+    width: 100%;
+  }
+  .partthree .paragraph1 a {
+    margin-top: 3rem;
+    width: 20%;
+  }
+  .partthree .paragraph2 {
+    width: 100%;
+  }
+  .partthree .paragraph2 a {
+    margin-top: 3rem;
+    width: 20%;
+  }
+  .partfour {
+    flex-direction: column;
+    margin-bottom: 5rem;
+  }
+  .partfour .paragraph3 {
+    width: 100%;
+    margin-bottom: 5rem;
+  }
+  .partfour .paragraph3 a {
+    margin-top: 3rem;
+    width: 20%;
+  }
+  .partfour .trait4 {
+    margin: 5rem 0 2rem 2rem;
+  }
+  .partfour .hall {
+    width: 100%;
+  }
+  .partfour .hall img {
+    width: 68%;
+    margin: 0 auto;
+  }
+  .partfour .firstprice {
+    border: solid 0.3rem black;
+    right: 7rem;
+    top: 41.5rem;
+  }
+  .partfour .firstprice p {
+    font-size: 1.7rem;
+  }
+  .partfour .into {
+    bottom: 2rem;
+    right: 1rem;
+  }
+  .partfour .into p {
+    font-size: 3rem;
+  }
+  footer {
+    margin: 5rem 0 3rem 3rem;
+    gap: 2rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+img {
+    display: block;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,a {
+    font-family: 'Poppins', sans-serif;
+}
+.fr {
+    display: flex;
+    justify-content: end;
+    a{
+        margin: 1rem 7rem 0 0;
+        color: black;
+        
+    }
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        padding: 0 2rem 4rem 2rem;
+        margin-left: 2rem;
+        p{
+            &:nth-of-type(1){
+                font-size: 3rem;
+                font-weight: 900;
+            }
+            &:nth-of-type(2){
+                font-size: 1rem;
+                font-weight: 900;
+            }
+        }
+    }
+    #navigation{
+        padding: 3rem 5rem 0 0;
+        margin-right: 2rem;
+        ul{
+            li{
+                display: inline-block;
+                a{
+                    font-size: 1rem;
+                    color: black;
+                    font-weight: 900;
+                    margin-left: 1rem;
+                    
+                }
+                &:nth-of-type(1){
+                    a{
+                    border-bottom: solid 0.3rem black;
+                    }
+                }
+            }
+        }
+    }
+}
+.partone {
+    margin-bottom: 3rem;
+    position: relative;
+    height: 40rem;
+    display: flex;
+    .photo1 {
+        // position: relative;
+        z-index: 1;
+        margin-left: 4rem;
+        width: 75%;
+        background-image: url(../images/header.jpg);
+        background-size: cover;
+    }
+    .textphoto1{
+        position: absolute;
+        right: 9rem;
+        top: 5rem;
+        z-index: 2;
+        p{
+            font-size: 5rem;
+            font-weight: 900;
+        }
+        .trait2 {
+            height: 0.8rem;
+            width: 18rem;
+            background-color: black;
+        }
+    }
+    .photo2{
+        position: absolute;
+        right: 10rem;
+        bottom: 3rem;
+    }
+    .fleches{
+        display: flex;
+        position: absolute;
+        right: 15rem;
+        bottom: 1.1rem;
+        p{
+            font-size: 1.6rem;
+            font-weight: 800;
+            &:nth-of-type(2) {
+                margin-left: 2rem;
+            }
+        }
+    }
+}
+h2 {
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+.parttwo{
+    margin-bottom: 3rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4rem;
+    p{
+        width: 20%;
+        &:nth-of-type(4) {
+            font-size: 3.5rem;
+            font-weight: 800;
+            text-align: left;
+            border: solid 0.4rem black;
+            padding-left: 0.8rem;
+        }
+    }
+    .plus {
+        position: absolute;
+        left: 4rem;
+        bottom: 0;
+        a{
+            padding: 0 1rem;
+            background-color: black;
+            color: white;
+        }
+    }
+}
+.trait3 {
+    // height: 30rem;
+    border-bottom: solid black .4rem;
+    margin: 20rem 0 2rem 0;
+
+}
+.partthree {
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    height: 80rem;
+    .building {
+        width: 45%;
+        img {
+            width: 100%;
+        }
+        .textbuilding {
+            display: flex;
+            flex-direction: column;
+            height: 25%;
+            background-color: black;
+            p{
+                padding: 4rem 4rem 0 1rem;
+                color: white;
+            }
+            a {
+                width: 14%;
+                color: white;
+                background-color: black;
+                border: solid white 0.2rem;
+                margin: 5rem 0 0 1rem;
+                text-align: center;
+            }
+        }
+    }
+    .paragraph1 {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        p {
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+            &:nth-of-type(1){
+                font-weight: 800;
+            }    
+            &:nth-of-type(2){
+                font-size: 1.6rem;
+                font-weight: 800;
+            }
+        }
+        a {
+            color: white;
+            font-weight: 600;
+            background-color: black;
+            width: 40%;
+            text-align: center;
+            margin-top: 6rem;
+            margin-left: 1rem;
+        }
+    }
+    .paragraph2 {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        p {
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+            &:nth-of-type(1){
+                font-weight: 800;
+            }    
+            &:nth-of-type(2){
+                font-size: 1.6rem;
+                font-weight: 800;
+            }
+        }
+        img {
+            width: 100%;
+            margin-bottom: 3rem;
+        }
+        a {
+            color: white;
+            font-weight: 600;
+            background-color: black;
+            width: 40%;
+            text-align: center;
+            margin-top: 7.8rem;
+            margin-left: 1rem;
+        }
+    }
+}
+.partfour {
+    // height: 60rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 10rem;
+    position: relative;
+    .paragraph3{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        .trait4 {
+            height: 0.5rem;
+            width: 15rem;
+            background-color: black;
+            margin: 10rem 0 2rem 2rem;
+        }
+        p {
+            margin-bottom: 1rem;
+            margin-left: 3rem;
+            &:nth-of-type(1){
+                font-weight: 800;
+            }    
+            &:nth-of-type(2){
+                font-size: 1.6rem;
+                font-weight: 800;
+            }
+        }
+        a {
+            color: white;
+            font-weight: 600;
+            background-color: black;
+            width: 15%;
+            text-align: center;
+            margin-top: 6rem;
+            margin-left: 3rem;
+        }
+    }
+    .hall {
+        width: 100%;
+        img {
+            width: 80%;
+            margin-top: 13rem;
+        }
+    } 
+    .firstprice {
+        position: absolute;
+        border: solid 0.4rem black;
+        padding: 1rem 2.5rem 1rem 0.2rem;
+        right: 20rem;
+        top: 5.6rem;
+        p{
+            font-size: 4rem;
+            font-weight: 900;
+            color: white;
+            &:nth-of-type(1){
+                font-weight: 800;
+                color: black;
+            }          
+        }
+    }
+    .into{
+        position: absolute;
+        bottom: 4rem;
+        right: 5rem;
+        p {
+            font-size: 6rem;
+            font-weight: 900;
+            rotate: 90deg;
+            background: linear-gradient(to bottom, black 50%, white 50%);
+            background-clip: text;
+            color: transparent;
+        }
+    } 
+}
+footer {
+    display: flex;
+    gap: 10rem;
+    margin: 20rem 0 3rem 3rem;
+    .footer1 {
+        h3 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 900;
+            margin-bottom: 0.6rem;
+        }
+        p {
+            font-size: 0.8rem;
+        }
+    }
+    .footer2 {
+        padding-top: 2.3rem;
+        p {
+            font-size: 0.8rem;
+        }
+    }
+    .footer3 {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2.3rem;
+        a {
+            color: black;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+@media screen and (max-width:940px) {
+    .fr {
+        a {
+            margin: 1rem 2rem 0 0;
+        }
+    }
+    header {
+        .logo{
+            padding: 0 2rem 4rem 2rem;
+            margin-left: 2rem;
+            p{
+                &:nth-of-type(1){
+                    font-size: 2rem;
+                    font-weight: 900;
+                }
+                &:nth-of-type(2){
+                    font-size: 1rem;
+                    font-weight: 900;
+                }
+            }
+        }
+        #navigation {
+            display: none;
+        }
+        #toggle {
+            position:fixed;
+            display: block;
+            width: 30px;
+            height: 2px;
+            top: 80px;
+            right: 80px;
+            cursor: pointer;
+            background-color:black;
+            // transform: translate(-50%, -50%);
+            transition: all .3s ease-in-out; // on peut préciser le type de transition que l'on veut (de base linéaire) ; ease-in-out = la transition commence lentement, s'accélère puis ralentit à nouveau avant la fin
+            // D'autres transition : ease-in (augmente progressivement) ; ease-out (ralentit progressivement) ; ...
+            z-index: 8;
+            &:before, &:after {
+                content: '';
+                // pas comme :hover, il faudra repréciser le display, la width, la height...
+                position: absolute;
+                display: block;
+                width: 30px;
+                height: 2px;
+                background-color: black;
+                transition: all .3s ease-in-out; 
+            }
+            &:before {
+                top: -10px;
+            }
+            &:after {
+                top: 10px;
+            }  
+        }
+        #toggle.active { 
+			 
+            //on va également créer la petite animation des span à l'ouverture du menu
+			background-color: transparent; // on rend transparent le span du milieu
+			&:before {
+				// on crée une rotation sur le span du haut et on le recentre sur le carré
+				transform: rotate(45deg);
+				top: 0;
+			}
+			&:after {
+				// on crée une rotation sur le span du bas et on le recentre sur le carré
+				transform: rotate(-45deg);
+				top: 0;
+			}
+			//selon le degré de rotation que vous indiquez, le sens de l'animation ne sera pas le même  
+        }
+        #navigation {
+            position: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            right: -200%;
+            width: 100%;
+            height: 100vh;
+            transition: .5s;
+            background-color: rgba(255, 255, 255, 0.8);
+            z-index: 6;
+        }
+        #navigation.active {
+           right: 0;
+            ul {
+                li {
+                    display: block;
+                    margin-bottom: 20px;
+                    width: 100%;
+                    a {
+                        color: black;
+                        font-size: 24px;
+                        text-align: center;
+                        // display: block;
+                    }
+                }
+            }    
+        }
+    }
+    .partone {
+        height: 15rem;
+        .photo1 {
+            height: 90%;
+        }
+        .textphoto1 {
+            right: 0.7rem;
+            top: 1.5rem;
+            p{
+                font-size: 1.5rem;
+                font-weight: 900;
+            }
+            .trait2 {
+                height: 0.4rem;
+                width: 7rem;
+                background-color: black;
+            }
+        }
+        .photo2 {
+            display: none;
+        }
+        .fleches {
+            left: 11rem;
+            bottom: 0;
+        }
+    }
+    h2 {
+        font-size: 1rem;
+    }
+    .parttwo {
+        flex-direction: column;
+        p {
+            width: 100%;
+            &:nth-of-type(4) {
+                font-size: 2.5rem;
+                font-weight: 800;
+                text-align: left;
+                border: solid 0.3rem black;
+                padding-left: 0.8rem;
+                margin-top: 1rem;
+            }
+        }
+        .plus {
+            display: block;
+            display: none;
+        }
+    }
+    .trait3 {
+        margin: 5rem 0 2rem 0;
+    }
+    .partthree {
+        flex-direction: column;
+        height: 100%;
+        margin: 0 2rem 1rem 2rem;
+        .building {
+            width: 100%;
+            img {
+                height: 20rem
+            };
+        .textbuilding {
+            a {
+                margin: 5rem 0 2rem 1rem;
+            }
+        }
+        }
+        .paragraph1 {
+            width: 100%;
+            a {
+                margin-top: 3rem;
+                width: 20%;
+            }
+        }
+        .paragraph2 {
+            width: 100%;
+            a {
+                margin-top: 3rem;
+                width: 20%;
+            }
+        }
+    }
+    .partfour {
+        flex-direction: column;
+        margin-bottom: 5rem;
+        .paragraph3 {
+            width: 100%;
+            margin-bottom: 5rem;
+            a {
+                margin-top: 3rem;
+                width: 20%;
+            }
+        }
+        .trait4 {
+            margin: 5rem 0 2rem 2rem;
+        }
+        .hall {
+            width: 100%;
+            img {
+                width: 68%;
+                margin: 0 auto; 
+            }
+        }
+        .firstprice {
+            border: solid 0.3rem black;
+            right: 7rem;
+            top: 41.5rem;
+            p{
+                font-size: 1.7rem;         
+            }   
+        }
+        .into {
+        bottom: 2rem;
+        right: 1rem;
+        p {
+            font-size: 3rem;
+        }
+        }
+    }
+    footer{
+       margin: 5rem 0 3rem 3rem;
+       gap: 2rem;
+    }
+}
+
