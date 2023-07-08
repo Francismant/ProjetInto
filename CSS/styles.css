@@ -523,14 +523,14 @@ footer .footer3 a {
   .partfour .firstprice {
     border: solid 0.3rem black;
     right: 7rem;
-    top: 41.5rem;
+    top: 48.6rem;
   }
   .partfour .firstprice p {
     font-size: 1.7rem;
   }
   .partfour .into {
     bottom: 2rem;
-    right: 1rem;
+    right: 0;
   }
   .partfour .into p {
     font-size: 3rem;
