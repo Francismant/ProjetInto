@@ -43,7 +43,6 @@ header {
     }
     #navigation{
         padding: 3rem 5rem 0 0;
-        margin-right: 2rem;
         ul{
             li{
                 display: inline-block;
@@ -370,7 +369,7 @@ footer {
             width: 30px;
             height: 2px;
             top: 80px;
-            right: 80px;
+            right: 50px;
             cursor: pointer;
             background-color:black;
             // transform: translate(-50%, -50%);
